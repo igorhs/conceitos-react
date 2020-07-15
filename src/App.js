@@ -16,7 +16,7 @@ function App() {
   async function handleAddRepository() {
     
     const repository = await api.post('/repositories', {
-      title: 'Adicionei um JSON ao backend hehe',
+      title: 'Uber Clone',
     });
 
     const newRepository = repository.data;
